@@ -1,12 +1,15 @@
 module System.Random.Lehmer.Constants (
-    modulus
+    LehmerConstant
+  , modulus
   , multiplier
   , streams
   , a256
   , stream_len
 ) where
 
-modulus, multiplier, streams, stream_len, a256 :: Int
+type LehmerConstant = Int
+
+modulus, multiplier, streams, stream_len, a256 :: LehmerConstant
 -- | 32-Bit Modulus, 2^31 - 1
 modulus    = 2147483647           -- 32Bit Lehmer Random
 -- | Picked for good statistics

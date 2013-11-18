@@ -2,7 +2,7 @@
 -- further documentation, see http://haskell.org/cabal/users-guide/
 
 name:                lehmer-random
-version:             0.1.0.0
+version:             0.2.0.0
 synopsis:            Haskell implementation of a 32-Bit Lehmer Random Number Generator.
 -- description:         
 homepage:            http://github.com/ZirroStig/haskell-lehmer-random
@@ -18,9 +18,10 @@ cabal-version:       >=1.10
 
 library
   exposed-modules:     
-    System.Random.Lehmer
     System.Random.Lehmer.Base
+    System.Random.Lehmer.Constants
     System.Random.Lehmer.State
+    System.Random.Lehmer.Util
   -- other-modules:       
   -- other-extensions:    
   build-depends:       base >=4.2 && <4.7, mtl >=2.1.2
