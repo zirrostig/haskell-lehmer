@@ -5,7 +5,7 @@ name:                lehmer-random
 version:             0.2.0.0
 synopsis:            Haskell implementation of a 32-Bit Lehmer Random Number Generator.
 -- description:         
-homepage:            http://github.com/ZirroStig/haskell-lehmer-random
+homepage:            http://github.com/zirrostig/haskell-lehmer
 license:             MIT
 license-file:        LICENSE
 author:              Zachary Stigall <zirrostig@lanfort.org>
