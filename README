@@ -1,0 +1,8 @@
+It is recommended you install this library to use it.
+To Install:
+    cabal install
+
+Haddock documentation can be generated with
+    cabal haddock
+
+Then just direct your browser of choice to the index.html file indicated in the output
