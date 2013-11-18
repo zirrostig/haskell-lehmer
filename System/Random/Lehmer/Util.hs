@@ -36,4 +36,4 @@ expDist :: (Floating a)
         => a        -- ^ λ
         -> a        -- ^ Uniform(0,1)
         -> a        -- ^ Exp(λ)
-expDist l u = (negate (log u)) / l
+expDist l u = (negate l) * log (1 - u)
