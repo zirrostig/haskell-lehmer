@@ -6,6 +6,7 @@ module System.Random.Lehmer.State (
 
   -- * State Wrapper and Initilizer
     LehmerGen
+  , LehmerState
   , lehmerInit
 
   -- * Basic Transistions/Inspection
@@ -33,7 +34,7 @@ module System.Random.Lehmer.State (
   ) where
 
 import qualified System.Random.Lehmer.Base as L
-import System.Random.Lehmer.Base (lehmerInit)
+import System.Random.Lehmer.Base (LehmerState, lehmerInit)
 import Control.Monad.State
 
 -- $usage
